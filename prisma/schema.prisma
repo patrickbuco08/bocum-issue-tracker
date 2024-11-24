@@ -81,8 +81,3 @@ model VerificationRequest {
 
   @@unique([identifier, token])
 }
-
-// npx prisma migrate dev
-// npx prisma format
-
-// https://members.codewithmosh.com/courses/nextjs-projects-issue-tracker/lectures/49642657
